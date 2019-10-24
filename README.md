@@ -14,21 +14,11 @@ counting multiplicity. X and Y are called the fangs."
     
 - You can obtain the number by **multiplying two integers**, X and Y, **each with N/2 digits**. X and Y are called **fangs**.
     
+- The number can be made **with all digits from X and Y**, in any order and only using each digit once (see [Examples 1250](#examples))
+
 - Both fangs cannot end simultaneously in 0.
-    
-- The number can be made **with all digits from X and Y**, in any order and only using each digit once (see [Concrete examples 1250](####concrete-examples:))
-
-
 
 ### Examples:
-
-> 1260 is a vampire number, with 21 and 60 as fangs, since 21 × 60 = 1260.
-
-> 126000 (which can be expressed as 21 × 6000 or 210 × 600) is not, as 21 and 6000 do not have the correct length,
-and both 210 and 600 have trailing zeroes
-
-
-#### Concrete examples:
 
 - 1260 is a vampire number.
 
@@ -57,14 +47,13 @@ and both 210 and 600 have trailing zeroes
 
 ## Requirements:
 
-- **You** are allowed only pure Python - no C!
+- **You** are allowed to use only pure Python - no C!
   
-  You can use any standard library that you wish but non-standard imports are **not allowed**.
+  You can use any standard library that you wish including non-standard libraries but those are not advised.
 
 - Code standards (PEP, organization, OOP etc) are **NOT counted** - only execution time is counted.
 
-- Your script **HAS** to have a function/method named `is_vampire_number` that takes one integer as a argument.
-  - This is for easier testing.
+- Your script **HAS** to have a function/method named `is_vampire_number` that takes one integer as a argument - this is for easier testing.
 
   - Example for function:
    ```
@@ -83,7 +72,7 @@ and both 210 and 600 have trailing zeroes
   - Valid argument is a natural number starting from 1 example 1,2,3....
 
 - You will be disqualified if you don't follow any of the above rules including:
-  - Your execution time takes more than 10s (see testing enviroment)
+  - Your execution time takes more than 10s (see testing enviroment for specs)
   - You hardcoded the answers.
   - You copy pasted code from net.
 
@@ -103,11 +92,15 @@ Testing will be done on a PC with the following specs:
 
 **elimination_test_1**
 
-Negative number is passed to your `is_vampire_number` function
+Negative number is passed to your `is_vampire_number` function.
+
+`Exception` or one of it's subclasses needs to be raised (message irrelevant).
 
 **elimination_test_2**
 
 0 is passed to your `is_vampire_number` function
+
+`Exception` or one of it's subclasses needs to be raised (message irrelevant).
 
 **elimination_test_3**
 
@@ -115,9 +108,7 @@ Negative number is passed to your `is_vampire_number` function
 
 One is a vampire number one is not. Your function has to return the correct answer (True/False) for both.
 
-#### Timed test - this test is counted for the win, lower time = better:
-
-**timed_test**
+### Timed test - this test is counted for the win, lower time = better:
 
 Your `is_vampire_number` function is called in a for loop in range (1, 7000).
 
