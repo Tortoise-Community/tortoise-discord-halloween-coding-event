@@ -1,4 +1,6 @@
-<iframe src="https://discordapp.com/widget?id=577192344529404154&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+<p align="center">
+    <img src="https://github.com/albertopoljak/tortoise-discord-halloween-coding-event/blob/master/logo.png?raw=true">
+</p>
 
 # Tortoise Discord Haloween Event
 
@@ -7,6 +9,9 @@ Welcome!
 This repo serves as a guide/ruleset for the event.
 
 Do not push to this repo but instead go to Tortoise Discord and use the command `t.submit` which will guide you trough process.
+
+[![Tortoise Discord server](https://img.shields.io/discord/577192344529404154?color=%237289DA&label=Tortoise%20Server&logo=discord)](https://discord.gg/f6VcZC2)
+
 
 Use that Discord for any additional questions. Good luck :)
 
