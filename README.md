@@ -8,18 +8,25 @@ Welcome!
 
 This repo serves as a guide/ruleset for the event.
 
-Do not push to this repo but instead go to Tortoise Discord and use the command `t.submit` which will guide you trough process.
+Do not push to this repo but instead read and follow #Code submissions
 
-[![Tortoise Discord server](https://img.shields.io/discord/577192344529404154?color=%237289DA&label=Tortoise%20Server&logo=discord)](https://discord.gg/f6VcZC2)
+Link to join Tortoise Discord: [![Tortoise Discord server](https://img.shields.io/discord/577192344529404154?color=%237289DA&label=Tortoise%20Server&logo=discord)](https://discord.gg/f6VcZC2)
 
-
-Use that Discord for any additional questions. Good luck :)
+Use this Discord for any additional questions. Good luck :)
 
 ## Short info
 
-Event starts at **October 31, 00:00h GMT+0** and will last until the end of the month aka **November 30, 23:59h GMT+0**!
+**Duration:** Event starts at **October 31, 00:00h GMT+0** and will last until the end of the month aka **November 30, 23:59h GMT+0**!
 
-Even difficulty: Above average - hard for newbies (you got whole month tho).
+**Even difficulty:** Above average - hard for newbies (you got whole month tho).
+
+**Participants**: Anyone can participate as long as you follow #Code submissions
+
+## Code submissions
+
+Join Tortoise server if you haven't already (link at top of this file)
+
+Use the command `t!submit` in one of the channels, it will guide trough the process.
 
 ## Prizes
 
