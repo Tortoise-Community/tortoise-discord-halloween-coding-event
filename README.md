@@ -20,7 +20,10 @@ Use this Discord for any additional questions. Good luck :)
 
 **Even difficulty:** Above average - hard for newbies (you got whole month tho).
 
-**Participants**: Anyone can participate as long as you follow #Code submissions
+**Participants**: Anyone can participate as long as you follow #Code submissions, only exclusion is me :)
+
+Yes that means that even admins and mods from Tortoise Discord can participate - transparency is guaranteed by me 
+(Discord user **BrainDead#6105**) since I solely wrote this event.
 
 ## Code submissions
 
