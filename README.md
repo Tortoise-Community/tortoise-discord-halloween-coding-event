@@ -1,4 +1,28 @@
-## Task:
+<iframe src="https://discordapp.com/widget?id=577192344529404154&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+
+# Tortoise Discord Haloween Event
+
+Welcome!
+
+This repo serves as a guide/ruleset for the event.
+
+Do not push to this repo but instead go to Tortoise Discord and use the command `t.submit` which will guide you trough process.
+
+Use that Discord for any additional questions. Good luck :)
+
+## Short info
+
+Event starts at October 31, 00:00h GMT+0 and will last until the end of the month aka 30. November, 23:59h GMT+0!
+
+Even difficulty: Above average - hard for newbies (you got whole month tho).
+
+## Prizes
+
+First place gets `Discord Nitro`
+
+Runner up gets `Discord Nitro classic`
+
+# Task:
 
 Create a script that will, based on input, return `True` if that input is a vampire number or `False` otherwise.
 
@@ -117,4 +141,3 @@ It has to return the correct True/False answer for each number.
 If it takes more than 10s you are disqualified (this is for single iteration).
 
 Your code will be ran in 10 iterations and the final score is your average time during those 10 iterations.
-
