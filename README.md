@@ -17,7 +17,7 @@ Use that Discord for any additional questions. Good luck :)
 
 ## Short info
 
-Event starts at October 31, 00:00h GMT+0 and will last until the end of the month aka 30. November, 23:59h GMT+0!
+Event starts at **October 31, 00:00h GMT+0** and will last until the end of the month aka **30. November, 23:59h GMT+0**!
 
 Even difficulty: Above average - hard for newbies (you got whole month tho).
 
