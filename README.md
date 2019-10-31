@@ -37,6 +37,12 @@ Use the command `t.submit` in one of the channels, it will guide trough the proc
 
 You can submit multiple times, only your last submission counts!
 
+If you'd like to make your submission public add a comment at the top of the submitted code.
+
+Submissions marked as public will be, after the event ends, pushed to this repo so that everybody can see all the different
+approaches.
+Default stance is "not public" so you need to specify you want it public.
+
 ## Prizes
 
 First place gets `Discord Nitro`
