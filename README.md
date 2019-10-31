@@ -16,20 +16,26 @@ Use this Discord for any additional questions. Good luck :)
 
 ## Short info
 
-**Duration:** Event starts at **October 31, 00:00h GMT+0** and will last until the end of the month aka **November 30, 23:59h GMT+0**!
+> **Duration:** Event starts at **October 31, 00:00h GMT+0** and will last until the end of the month aka **November 30, 23:59h GMT+0**!
 
-**Even difficulty:** Above average - hard for newbies (you got whole month tho).
+> **Even difficulty:** Above average - hard for newbies (you got whole month tho).
 
-**Participants**: Anyone can participate as long as you follow #Code submissions, only exclusion is me :)
+> **Participants**: Anyone can participate as long as you follow #Code submissions, only exclusion is me :)
 
-Yes that means that even admins and mods from Tortoise Discord can participate - transparency is guaranteed by me 
+* Yes that means that even admins and mods from Tortoise Discord can participate - transparency is guaranteed by me 
 (Discord user **BrainDead#6105**) since I solely wrote this event.
+
+> **Language**: Only Python is accepted (testing environment has v3.8). It would be cool to see solutions in different
+languages but it wouldn't be fair as the end result would mostly depend on the language of choice and not on your algorithm quality.
+
 
 ## Code submissions
 
 Join Tortoise server if you haven't already (link at top of this file)
 
-Use the command `t!submit` in one of the channels, it will guide trough the process.
+Use the command `t.submit` in one of the channels, it will guide trough the process.
+
+You can submit multiple times, only your last submission counts!
 
 ## Prizes
 
