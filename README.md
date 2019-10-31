@@ -31,11 +31,11 @@ languages but it wouldn't be fair as the end result would mostly depend on the l
 
 ## Code submissions
 
-Join Tortoise server if you haven't already (link at top of this file)
+Join Tortoise server if you haven't already (link at top of this file).
 
-Use the command `t.submit` in one of the channels, it will guide trough the process.
+Use the command `t.submit` while in DM with the bot `Tortoise#3078` and it will guide trough the process.
 
-You can submit multiple times, only your last submission counts!
+You can submit multiple times - only your last submission counts!
 
 If you'd like to make your submission public add a comment at the top of the submitted code.
 
@@ -48,6 +48,8 @@ Default stance is "not public" so you need to specify you want it public.
 First place gets `Discord Nitro`
 
 Runner up gets `Discord Nitro classic`
+
+If you don't need those (already have etc) you can gift it to someone else.
 
 # Task:
 
@@ -100,7 +102,7 @@ counting multiplicity. X and Y are called the fangs."
 
 - **You** are allowed to use only pure Python - no C!
   
-  You can use any standard library that you wish including non-standard libraries but those are not advised.
+  You can use any standard library that you wish including non-standard libraries.
 
 - Code standards (PEP, organization, OOP etc) are **NOT counted** - only execution time is counted.
 
