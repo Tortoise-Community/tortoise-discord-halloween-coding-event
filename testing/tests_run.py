@@ -13,27 +13,22 @@ class EliminationFail(Exception):
     pass
 
 
-def elimination_0(imp):
+def elimination_1(imp):
     try:
         return getattr(imp, "is_vampire_number")
     except AttributeError:
         raise EliminationFail("Elimination 0: is_vampire_number function not found!")
 
 
-def elimination_1(function):
+def elimination_2(function, number):
     try:
-        function(-1)
+        returned = function(number)
+        if returned:
+            raise EliminationFail(f"Elimination 2: Invalid number {number} returned True!")
     except ValueError:
         return
-    raise EliminationFail("Elimination 1: Negative number did not raise ValueError!")
-
-
-def elimination_2(function):
-    try:
-        function(0)
-    except ValueError:
-        return
-    raise EliminationFail("Elimination 2: Zero did not raise ValueError!")
+    except Exception as err:
+        raise EliminationFail(f"Elimination 2: Uncaught exception while passing number {number}: {err}!")
 
 
 def elimination_3(function):
@@ -61,9 +56,9 @@ for submission in submissions:
     imported = import_module(submission)
 
     try:
-        function_to_run = elimination_0(imported)
-        elimination_1(function_to_run)
-        elimination_2(function_to_run)
+        function_to_run = elimination_1(imported)
+        for i in range(-5, 1, 1):
+            elimination_2(function_to_run, i)
         elimination_3(function_to_run)
         elimination_4(function_to_run)
     except EliminationFail as e:

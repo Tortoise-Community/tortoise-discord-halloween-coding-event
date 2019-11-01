@@ -147,21 +147,17 @@ You have a file called [tests.run](https://github.com/albertopoljak/tortoise-dis
 
 #### Elimination tests - fail these and you are disqualified:
 
-**elimination_test_0**
+**elimination_test_1**
 
 Your script **HAS** to have a function named exactly `is_vampire_number`
 
-**elimination_test_1**
-
-Negative number is passed to your `is_vampire_number` function.
-
-**`ValueError`** needs to be raised (message irrelevant).
-
 **elimination_test_2**
 
-0 is passed to your `is_vampire_number` function
+Numbers from -3 to 0 including are passed to your `is_vampire_number` function.
 
-**`ValueError`** needs to be raised (message irrelevant).
+Each of them has to raise **`ValueError`** **OR** your `is_vampire_number` needs to return `False`.
+
+Any other error other than **`ValueError`** is not allowed.
 
 **elimination_test_3**
 
