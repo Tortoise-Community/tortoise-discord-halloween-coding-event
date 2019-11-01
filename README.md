@@ -143,9 +143,9 @@ Testing will be done on a PC with the following specs:
 
 ## Testing process:
 
-#### Elimination tests - fail these and you are disqualified:
+You have a file called [tests.run](https://github.com/albertopoljak/tortoise-discord-halloween-coding-event/blob/master/testing/tests_run.py) in this repository with which you can test your script.
 
-You have a file called `tests.run` in this repository with which you can test your script.
+#### Elimination tests - fail these and you are disqualified:
 
 **elimination_test_0**
 
