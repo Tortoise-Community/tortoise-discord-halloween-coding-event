@@ -57,8 +57,8 @@ for submission in submissions:
 
     try:
         function_to_run = elimination_1(imported)
-        for i in range(-5, 1, 1):
-            elimination_2(function_to_run, i)
+        for num in range(-5, 1, 1):
+            elimination_2(function_to_run, num)
         elimination_3(function_to_run)
         elimination_4(function_to_run)
     except EliminationFail as e:

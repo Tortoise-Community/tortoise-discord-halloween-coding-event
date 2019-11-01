@@ -123,7 +123,7 @@ counting multiplicity. X and Y are called the fangs."
     For example 125460 has 2 possible sets of fangs (204, 615) and (246, 510) and will still return `True`.
 
 - Your `is_vampire_number` has to return the correct answer (True/False)
-  - It has to throw **`ValueError`** if invalid argument is passed to it.
+  - It has to either throw **`ValueError`** or return `False` if invalid argument is passed to it.
   - Valid argument is a natural number starting from 1 example 1,2,3....
 
 - You will be disqualified if you don't follow any of the above rules including:
@@ -167,7 +167,7 @@ Your `is_vampire_number` function has to return True for all of these valid vamp
 
 And it has to return `False` for all those numbers decremented by 1:
 
-`146136, 150299, ...`
+`146136, 150299, 536538...`
 
 **elimination_test_4**
 
