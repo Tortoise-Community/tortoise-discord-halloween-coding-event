@@ -43,6 +43,8 @@ Submissions marked as public will be, after the event ends, pushed to this repo 
 approaches.
 Default stance is "not public" so you need to specify you want it public.
 
+The bot sends your code directly to my DMs (Discord user **BrainDead#6105**) - no one else can see it.
+
 ## Prizes
 
 First place gets `Discord Nitro`
@@ -121,11 +123,11 @@ counting multiplicity. X and Y are called the fangs."
     For example 125460 has 2 possible sets of fangs (204, 615) and (246, 510) and will still return `True`.
 
 - Your `is_vampire_number` has to return the correct answer (True/False)
-  - It has to throw `Exception` (or derivatives) if invalid argument is passed to it.
+  - It has to throw **`ValueError`** if invalid argument is passed to it.
   - Valid argument is a natural number starting from 1 example 1,2,3....
 
 - You will be disqualified if you don't follow any of the above rules including:
-  - Your execution time takes more than 10s (see testing enviroment for specs)
+  - Your execution time takes more than 10s (see testing environment for specs)
   - You hardcoded the answers.
   - You copy pasted code from net.
 
@@ -143,23 +145,37 @@ Testing will be done on a PC with the following specs:
 
 #### Elimination tests - fail these and you are disqualified:
 
+You have a file called `tests.run` in this repository with which you can test your script.
+
+**elimination_test_0**
+
+Your script **HAS** to have a function named exactly `is_vampire_number`
+
 **elimination_test_1**
 
 Negative number is passed to your `is_vampire_number` function.
 
-`Exception` or one of it's subclasses needs to be raised (message irrelevant).
+**`ValueError`** needs to be raised (message irrelevant).
 
 **elimination_test_2**
 
 0 is passed to your `is_vampire_number` function
 
-`Exception` or one of it's subclasses needs to be raised (message irrelevant).
+**`ValueError`** needs to be raised (message irrelevant).
 
 **elimination_test_3**
 
-2 very big random numbers are passed to your `is_vampire_number` function.
+Your `is_vampire_number` function has to return True for all of these valid vampire numbers:
 
-One is a vampire number one is not. Your function has to return the correct answer (True/False) for both.
+`146137, 150300, 536539, 10025010, 13078260, 46847920, 1000174288`
+
+And it has to return `False` for all those numbers decremented by 1:
+
+`146136, 150299, ...`
+
+**elimination_test_4**
+
+Your `is_vampire_number` function is ran in a loop from `1, 7000` and it has to finish in less or equal than 10 seconds.
 
 ### Timed test - this test is counted for the win, lower time = better:
 
