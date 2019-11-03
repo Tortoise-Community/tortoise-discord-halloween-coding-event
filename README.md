@@ -47,9 +47,9 @@ The bot sends your code directly to my DMs (Discord user **BrainDead#6105**) - n
 
 ## Prizes
 
-First place gets `Discord Nitro`
+First place gets 1 month of `Discord Nitro`
 
-Runner up gets `Discord Nitro classic`
+Runner up gets 1 month  of `Discord Nitro classic`
 
 If you don't need those (already have etc) you can gift it to someone else.
 
