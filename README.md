@@ -129,7 +129,10 @@ counting multiplicity. X and Y are called the fangs."
 - You will be disqualified if you don't follow any of the above rules including:
   - Your execution time takes more than 10s (see testing environment for specs)
   - You hardcoded the answers.
-  - You copy pasted code from net.
+  - You copy-pasted code from net that does the entire job for you - you can copy-paste code snippets, that's normal for a dev :)
+   but you cannot copy-paste the entire solution that finds vampire numbers out of the box. What I mean by snippets is for 
+   example copy-pasting the source code for `from itertools import permutations` and editing it or finding a similar
+   permutation algorithm with better performance for you needs and copy-pasting that.
 
 
 ## Testing environment:
