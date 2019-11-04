@@ -8,7 +8,7 @@ Welcome!
 
 This repo serves as a guide/ruleset for the event.
 
-Do not push to this repo but instead read and follow [# Code submissions](#code-submissions)
+Do not push to this repo but instead read and follow [#Code submissions](#code-submissions)
 
 Link to join Tortoise Discord: [![Tortoise Discord server](https://img.shields.io/discord/577192344529404154?color=%237289DA&label=Tortoise%20Server&logo=discord)](https://discord.gg/f6VcZC2)
 
@@ -127,7 +127,7 @@ counting multiplicity. X and Y are called the fangs."
   - Valid argument is a natural number starting from 1 example 1,2,3....
 
 - You will be disqualified if you don't follow any of the above rules including:
-  - **Your execution time takes more than 10s** (see [# Testing environment](#testing-environment) for specs)
+  - **Your execution time takes more than 10s** (see [#Testing environment](#testing-environment) for specs)
   - **You hardcoded the answers** - imagine your function as dumb, it doesn't know when will the first vampire number
   occur nor how many there are and which numbers are they. It **ONLY** knows the rules and algorithm on how to find one.
   So you **CANNOT** do this:
@@ -136,6 +136,8 @@ counting multiplicity. X and Y are called the fangs."
        if n < 1260: return False
        ... # rest of code
     ```
+    However, since your function knows the conditions from [#Condition for a number to be Vampire Number](#condition-for-a-number-to-be-vampire-number)
+    you could do something similar - look at the first condition.
   - **You copy-pasted code from net that does the entire job for you** - you can copy-paste code snippets, that's normal for a dev :)
    but you cannot copy-paste the entire solution that finds vampire numbers out of the box. What I mean by snippets is for 
    example copy-pasting the source code for `from itertools import permutations` and editing it or finding a similar
