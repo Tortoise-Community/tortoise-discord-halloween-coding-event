@@ -28,6 +28,16 @@ Use this Discord for any additional questions. Good luck :)
 > **Language**: Only Python is accepted (testing environment has v3.8). It would be cool to see solutions in different
 languages but it wouldn't be fair as the end result would mostly depend on the language of choice and not on your algorithm quality.
 
+## Current leaderboard
+
+Just for reference - only times are showed, authors are and will remain anonymous.
+
+1. 0.039579914999999986s
+2. 0.059650647999999966s
+3. 0.06111201500000009s
+4. 0.08065712699999997s
+5. 0.14842655299999977s
+6. 0.20886057300000016s
 
 ## Code submissions
 
@@ -193,4 +203,4 @@ It has to return the correct True/False answer for each number.
 
 If it takes more than 10s you are disqualified (this is for single iteration).
 
-Your code will be ran in 10 iterations and the final score is your average time during those 10 iterations.
+Your code will be ran in 100 iterations and the final score is your average time during those 100 iterations.
