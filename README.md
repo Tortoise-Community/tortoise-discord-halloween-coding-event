@@ -32,12 +32,13 @@ languages but it wouldn't be fair as the end result would mostly depend on the l
 
 Just for reference - only times are showed, authors are and will remain anonymous.
 
-1. 0.039579914999999986s
-2. 0.059650647999999966s
-3. 0.06111201500000009s
-4. 0.08065712699999997s
-5. 0.14842655299999977s
-6. 0.20886057300000016s
+1. 0.02822540999999969s
+2. 0.039579914999999986s
+3. 0.059650647999999966s
+4. 0.06111201500000009s
+5. 0.08065712699999997s
+6. 0.14842655299999977s
+7. 0.20886057300000016s
 
 These failed some of the elimination tests but their code works on specific criteria.
 These are **not counted for win** but nevertheless are still noteworthy to show:
