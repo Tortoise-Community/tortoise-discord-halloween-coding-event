@@ -39,7 +39,8 @@ Just for reference - only times are showed, authors are and will remain anonymou
 5. 0.14842655299999977s
 6. 0.20886057300000016s
 
-Failed elimination tests but nevertheless noteworthy (won't count for win):
+These failed some of the elimination tests but their code works on specific criteria.
+These are **not counted for win** but nevertheless are still noteworthy to show:
 
 * 0.029360745999999997s
 
