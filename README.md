@@ -39,6 +39,10 @@ Just for reference - only times are showed, authors are and will remain anonymou
 5. 0.14842655299999977s
 6. 0.20886057300000016s
 
+Failed elimination tests but nevertheless noteworthy (won't count for win):
+
+* 0.029360745999999997s
+
 ## Code submissions
 
 Join Tortoise server if you haven't already (link at top of this file).
