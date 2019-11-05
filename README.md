@@ -57,7 +57,7 @@ The bot sends your code directly to my DMs (Discord user **BrainDead#6105**) - n
 
 ## Prizes
 
-First place gets 1 month of `Discord Nitro`
+First place gets 1 month of `Discord Nitro` + [Amnesia collection Steam key](https://store.steampowered.com/sub/36631/)
 
 Runner up gets 1 month  of `Discord Nitro classic`
 
