@@ -4,6 +4,8 @@
 
 # Tortoise Discord Haloween Event
 
+Event is over, see [#Results](#results) to see winners.
+
 Welcome!
 
 This repo serves as a guide/ruleset for the event.
@@ -28,13 +30,19 @@ Use this Discord for any additional questions. Good luck :)
 > **Language**: Only Python is accepted (testing environment has v3.8). It would be cool to see solutions in different
 languages but it wouldn't be fair as the end result would mostly depend on the language of choice and not on your algorithm quality.
 
-## Current leaderboard
+## Results
 
-Just for reference - only top 3 times are showed, authors are and will remain anonymous.
+Event is over! 
 
-1. 0.02822540999999969s
-2. 0.039579914999999986s
-3. 0.059650647999999966s
+Winner and first place takes member `Leterax` with his impressive time of 0.028s!
+He'll be taking `1 month of Discord Nitro` + `Amnesia collection Steam key`
+
+Second place and winner of `1 month  of Discord Nitro classic` is `effyn` with his
+also impressive time of 0.038s!
+
+1. `Leterax` - 0.02865991399999956s
+2. `effyn` - 0.039579914999999986s
+
 
 ## Code submissions
 
